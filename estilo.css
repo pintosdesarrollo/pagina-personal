@@ -68,12 +68,16 @@ span {
 .proyectoUno {
   width: 750px;
   height: 400px;
+  background-image: url(Captura\ de\ pantalla\ \(1\).png);
+  background-size: cover;
 
 }
 
 .proyectoDos {
   width: 280px;
   height: 600px;
+  background-image: url(Captura\ de\ pantalla\ \(1\).png);
+  background-size: cover;
 
 
 }
@@ -397,6 +401,8 @@ form textarea {
     left: 50%;
     transform: translate(-50%, -50%);
     top: 290px;
+    background-image: url(./img/ig-222.png); /* Cambia la ruta por la de la nueva imagen */
+    background-size: cover;
   }
 
   .nuevoDiv {
@@ -417,6 +423,8 @@ form textarea {
     left: 50%;
     transform: translate(-50%, -50%);
     top: 490px;
+    background-image: url(./img/ig-222.png); /* Cambia la ruta por la de la nueva imagen */
+    background-size: cover;
 
   }
 
