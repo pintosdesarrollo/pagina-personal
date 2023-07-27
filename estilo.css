@@ -40,7 +40,9 @@ h1 {
   text-transform: uppercase;
   font-weight: bold;
 }
-
+h2{
+  text-align: center;
+}
 span {
   color: white;
   font-size: 1rem;
@@ -88,6 +90,10 @@ span {
   height: 600px;
   position: absolute;
   left: 95px;
+  background-image: url(Captura\ de\ pantalla\ \(1\).png);
+  background-size: cover;
+  top: 850px;
+
 
 }
 
@@ -97,6 +103,10 @@ span {
   height: 400px;
   position: absolute;
   left: 500px;
+  background-image: url(Captura\ de\ pantalla\ \(1\).png);
+  background-size: cover;
+  top: 850px;
+
 
 
 }
@@ -310,7 +320,7 @@ h2 {
 
 .contenedorContacto {
   position: absolute;
-  top: 2200px;
+  top: 2700px;
   /* background-color: aquamarine; */
   display: grid;
   grid-template-columns: 1fr;
@@ -356,6 +366,19 @@ form textarea {
   resize: vertical;
 }
 
+.colorSpan{
+  color: gray;
+}
+.contenedorPaquetes div {
+  background-color: white;
+  color: black;
+  border: 2px solid red;
+  width: 400px;
+  border-radius: 15px;
+  margin: 50px auto; 
+  margin-top: 1200px;
+
+}
 
 
 
@@ -369,12 +392,35 @@ form textarea {
 
 /* ************VERSION MOBILE************* */
 @media (max-width: 767px) {
-
-
   h1 {
     font-size: 1.5rem;
+    margin-top: 30px;
+  }
+ 
+  .textoDos{
+    margin-top: 30px;
+  }
+  .card h2{
+    font-size: 20px;
+  }
+  .card-title{
+    font-size: 25px;
   }
 
+  .card-text{
+    width: 300px;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+   
+  
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
   .proyectos {
     display: grid;
     grid-template-columns: 1fr;
@@ -401,7 +447,7 @@ form textarea {
     width: 320px;
     height: 170px;
     position: absolute;
-    top: 290px;
+    top: 260px;
     background-image: url(./img/foto-dos.png);
     /* Cambia la ruta por la de la nueva imagen */
     background-size: cover;
@@ -412,7 +458,7 @@ form textarea {
 
   .nuevoDiv {
     position: absolute;
-    top: 440px;
+    top: 475px;
     width: 320px;
     height: 125px;
     left: 50%;
@@ -431,13 +477,13 @@ form textarea {
     background-position: center;
     margin: 0 auto;
     /* Centrar horizontalmente */
-    top: 490px;
+    top: 445px;
 
   }
 
   .nuevoDivDos {
     position: absolute;
-    top: 640px;
+    top: 660px;
     width: 320px;
     height: 125px;
     left: 50%;
@@ -455,12 +501,12 @@ form textarea {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 690px;
+    top: 630px;
   }
 
   .nuevoDivCuatro {
     position: absolute;
-    top: 840px;
+    top: 780px;
     width: 320px;
     height: 125px;
     left: 50%;
@@ -478,13 +524,13 @@ form textarea {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 890px;
+    top: 815px;
 
   }
 
   .nuevoDivCinco {
     position: absolute;
-    top: 1040px;
+    top: 1030px;
     width: 320px;
     height: 125px;
     left: 50%;
@@ -506,11 +552,13 @@ form textarea {
 
   .imgServicios {
     grid-area: img;
-    background-color: black;
     width: 300px;
     height: 150px;
     margin-left: auto;
     margin-right: auto;
+    position: absolute;
+    top: 85px;
+
   }
 
   .imagenServicio {
@@ -521,19 +569,34 @@ form textarea {
   .textoServicios {
     grid-area: texto;
     background-color: black;
-    width: 300px;
-    margin: 5px;
+    width: 350px;
     color: white;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -180px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .textoServicios p {
-    font-size: 0.5rem;
+    font-size: 0.75rem;
+    width: 330px;
+    position: absolute;
+    top: 35px;
 
+  }
+  .textoServicios h2 {
+    text-transform: uppercase;
+  font-weight: bold;
   }
 
   .contenedorServicios {
     position: absolute;
-    top: 1220px;
+    top: 1170px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -543,51 +606,24 @@ form textarea {
     justify-items: center;
     /* Centrar horizontalmente */
     margin-top: 10px;
+    width: 350px;
+ 
   }
 
 
-  /* 
-  .contenedorContacto {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .redesContacto {
-    
-    margin-bottom: 100px;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
-  }
-  .redesContacto p {
-    display: inline-block;
-    margin-left: 10px;
-  }
-  .redesContacto h4 {
-    text-align: center;
-    margin-top: 10px;
-    color: #0F4C75;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 1.5rem;
-    margin-bottom: 5px; /* Espacio entre h4 y las imágenes */
-
-  /* } */
+ 
+  
 
 
   .contenedorContacto {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 10px;
-    /* Margen de 10px en cada lado */
+    margin: 1px;
+   
     position: absolute;
-    top: 1650px;
-    width: 100%;
+    top: 3350px;
+    width: 400px;
   }
 
   .redesContacto {
@@ -621,16 +657,7 @@ form textarea {
     /* Espacio entre las imágenes */
   }
 
-  /* .imgRedes {
-    width: 60px;
-    height: 60px;
-   
-  }  */
-
-  /* .redesContacto p {
-    display: none;
-  } */
-
+ 
 
   .formulario {
     display: none;
@@ -640,6 +667,33 @@ form textarea {
     overflow-x: hidden;
     overflow-y: auto;
   }
+  .contenedorPaquetes div{
+  width: 300px;
+  margin-top: 15px;
+  }
+  .paqueteUno{
+    position: absolute;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 1700px;
+  }
+  .paqueteDos{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 2200px;
+  }
+  .paqueteTres{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 2735px;
+  }
+  
 
 
 

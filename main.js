@@ -31,7 +31,8 @@ const mostrarProyecto = () => {
     <div class="card">
       <div class="card-body fondo">
         <h5 class="card-title">Juana Deco</h5>
-        <p class="card-text">Descripción del proyecto uno.</p>
+        <p class="card-text">Pagina realizada para empresa de decoracion. En esta pagina utilizamos codigo html y css para cumplir los objetivos del cliente de mostrar sus servicios mas una seccion de contacto.</p>
+        <h2>link: <a href="https://juanadeco.netlify.app/">https://juanadeco.app</a></h2>
         <button class="btnDiv" id="cerrarProyecto" onclick="cerrarProyecto()">Cerrar</button>
       </div>
     </div>
