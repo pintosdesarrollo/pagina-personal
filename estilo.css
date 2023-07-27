@@ -24,12 +24,13 @@ header {
   background-color: black;
   display: flex;
   justify-content: center;
+  width: 100vw;
 }
 
 .navbar-nav {
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: 100vw;
 }
 
 h1 {
@@ -407,7 +408,7 @@ button a {
 
 footer{
   background-color: black;
-  width: 1360px;
+  width: 100vw;
   position: absolute;
   top: 3500px;
   height: 140px;
@@ -717,7 +718,7 @@ footer{
 footer{
   position: absolute;
   top: 3500px;
-  width: 420px;
+  width: 100vw;
 }
 footer p {
   margin: 15px;
