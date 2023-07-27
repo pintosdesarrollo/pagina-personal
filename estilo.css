@@ -1,6 +1,7 @@
 * {
   margin: 0%;
   padding: 0%;
+  border: 1px solid red;
 }
 
 body {
@@ -325,11 +326,12 @@ h2 {
 }
 
 /* formulario  */
-.botonEnviar{
+.botonEnviar {
   border-radius: 2px solid white;
   text-align: center;
   cursor: pointer;
 }
+
 input {
   background-color: white;
   color: #333333;
@@ -343,6 +345,7 @@ form {
   padding-bottom: 20px;
   padding-top: 20px;
 }
+
 form textarea {
   background-color: white;
   width: 500px;
@@ -382,7 +385,7 @@ form textarea {
       "cuatro"
       "cinco"
       "seis";
-    
+
     justify-content: center;
     /* display: grid;
   grid-template-columns: 1fr 1fr;
@@ -398,11 +401,13 @@ form textarea {
     width: 320px;
     height: 170px;
     position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
     top: 290px;
-    background-image: url(./img/ig-222.png); /* Cambia la ruta por la de la nueva imagen */
+    background-image: url(./img/foto-dos.png);
+    /* Cambia la ruta por la de la nueva imagen */
     background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    /* Centrar horizontalmente */
   }
 
   .nuevoDiv {
@@ -420,11 +425,13 @@ form textarea {
     width: 320px;
     height: 170px;
     position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    top: 490px;
-    background-image: url(./img/ig-222.png); /* Cambia la ruta por la de la nueva imagen */
+    background-image: url(./img/foto-dos.png);
+    /* Cambia la ruta por la de la nueva imagen */
     background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    /* Centrar horizontalmente */
+    top: 490px;
 
   }
 
@@ -442,9 +449,12 @@ form textarea {
   .proyectoCuatro {
     width: 320px;
     height: 170px;
+    background-image: url(./img/foto-dos.png);
+    background-size: cover;
+    background-position: center;
     position: absolute;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
     top: 690px;
   }
 
@@ -454,18 +464,22 @@ form textarea {
     width: 320px;
     height: 125px;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
+    /* Centrar horizontalmente usando translateX */
     z-index: 9999;
-    /* Ajusta los estilos adicionales para el nuevo div */
   }
 
   .proyectoCinco {
     width: 320px;
     height: 170px;
+    background-image: url(./img/foto-dos.png);
+    background-size: cover;
+    background-position: center;
     position: absolute;
     left: 50%;
+    transform: translateX(-50%);
     top: 890px;
-    transform: translate(-50%, -50%);
+
   }
 
   .nuevoDivCinco {
@@ -532,7 +546,7 @@ form textarea {
   }
 
 
-/* 
+  /* 
   .contenedorContacto {
     display: flex;
     justify-content: center;
@@ -561,15 +575,16 @@ form textarea {
     font-weight: bold;
     font-size: 1.5rem;
     margin-bottom: 5px; /* Espacio entre h4 y las imágenes */
-    
+
   /* } */
-  
+
 
   .contenedorContacto {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 10px; /* Margen de 10px en cada lado */
+    margin: 0 10px;
+    /* Margen de 10px en cada lado */
     position: absolute;
     top: 1650px;
     width: 100%;
@@ -602,8 +617,10 @@ form textarea {
   .imgRedes {
     width: 60px;
     height: 60px;
-    margin: 2px;/* Espacio entre las imágenes */
+    margin: 2px;
+    /* Espacio entre las imágenes */
   }
+
   /* .imgRedes {
     width: 60px;
     height: 60px;
@@ -613,17 +630,17 @@ form textarea {
   /* .redesContacto p {
     display: none;
   } */
-  
-  
+
+
   .formulario {
     display: none;
   }
-  
+
   body {
     overflow-x: hidden;
     overflow-y: auto;
   }
 
-  
-  
+
+
 }
