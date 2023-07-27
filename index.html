@@ -58,7 +58,7 @@
             <img src="img/imgSeis.png" alt="">
         </div>
     </div>
-    <div id="contenedorProyectos" class="row"></div>
+    <div id="contenedorProyectos" class="row contenedorProyectos"></div>
     <!-- SERVICIOS -->
     <div class="contenedorServicios">
         <div class="imgServicios"><img src="imagenpagina.jpg" alt="" class="imagenServicio"></div>
@@ -78,51 +78,6 @@
             </p>
         </div>
     </div>
-    <!-- Paquetes -->
-    <!-- <div class="container">
-    <div class="row">
-      <div class="col-md-4 col-sm-12">
-        <div class="paqueteUno">
-       
-          <h2>diseño web</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum obcaecati dicta aut accusamus aliquam quas omnis maxime inventore recusandae magni distinctio, vero eos. Praesentium eos illum expedita dicta, minima libero?</p>
-            <h3>landing page</h3>
-            <h3>sitio web hasta 5 paginas</h3>
-            <h3>sitio web + 5 paginas</h3>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-12">
-        <div class="paqueteDos">  
-          <h2>desarrollo web</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum obcaecati dicta aut accusamus aliquam quas omnis maxime inventore recusandae magni distinctio, vero eos. Praesentium eos illum expedita dicta, minima libero?</p>
-            <h3>landing page</h3>
-            <h3>sitio web hasta 5 paginas</h3>
-            <h3>sitio web + 5 paginas</h3>
-            <h3>e-comerse <span class="colorSpan">(inactivo por el momento)</span></h3>
-        </div>
-      </div>
-
-        <div class="col-md-4 col-sm-12 paqueteTres">
-          
-          <h2>diseño + desarrollo</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum obcaecati dicta aut accusamus aliquam quas omnis maxime inventore recusandae magni distinctio, vero eos. Praesentium eos illum expedita dicta, minima libero?</p>
-          <h3>landing page</h3>
-          <h3>sitio web hasta 5 paginas</h3>
-          <h3>sitio web + 5 paginas</h3>
-          <h3>e-comerse <span class="colorSpan">(inactivo por el momento)</span></h3>
-        </div>
-      </div>
-    </div>
-  </div> -->
-
-
-
-
-
-
-
-
-
 
 
 
@@ -134,9 +89,12 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum obcaecati dicta aut accusamus aliquam
                     quas omnis maxime inventore recusandae magni distinctio, vero eos. Praesentium eos illum expedita
                     dicta, minima libero?</p>
-                <h3>landing page</h3>
+                <h3 id="landingDis">landing page</h3>
                 <h3>sitio web hasta 5 paginas</h3>
                 <h3>sitio web + 5 paginas</h3>
+                <h3>e-comerse <span class="colorSpan">(inactivo)</span></h3>
+                <button class="consulta"><a href="https://chat.openai.com/">consulta</a></button>
+                <div class="precio" style="display: none;"></div>
             </div>
             <div class="col-md-4 col-sm-12 paqueteDos">
                 <h2>desarrollo web</h2>
@@ -146,7 +104,8 @@
                 <h3>landing page</h3>
                 <h3>sitio web hasta 5 paginas</h3>
                 <h3>sitio web + 5 paginas</h3>
-                <h3>e-comerse <span class="colorSpan">(inactivo por el momento)</span></h3>
+                <h3>e-comerse <span class="colorSpan">(inactivo)</span></h3>
+                <button class="consulta"><a href="https://chat.openai.com/">consulta</a></button>
             </div>
             <div class="col-md-4 col-sm-12 paqueteTres">
                 <h2>diseño + desarrollo</h2>
@@ -156,7 +115,8 @@
                 <h3>landing page</h3>
                 <h3>sitio web hasta 5 paginas</h3>
                 <h3>sitio web + 5 paginas</h3>
-                <h3>e-comerse <span class="colorSpan">(inactivo por el momento)</span></h3>
+                <h3>e-comerse <span class="colorSpan">(inactivo)</span></h3>
+                <button class="consulta"><a href="https://chat.openai.com/">consulta</a></button>
             </div>
         </div>
     </section>
@@ -193,11 +153,13 @@
 
     <!-- footer -->
     <footer>
-        <p>copyright</p>
-        <h4>creado por @jeropintoss</h4>
+        <p>copyright creado por @jeropintoss</p>
         <div>
             <a href="">instagram</a>
+            <a href="">whastapp</a>
+            <a href="">facebook</a>
         </div>
+        <h3>¡gracias por visitar!</h3>
     </footer>
     <!-- link bs -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"

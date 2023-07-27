@@ -173,3 +173,37 @@ const cerrarProyectoCinco = () => {
 };
 
 
+
+/*
+
+const paqueteUnoUno = document.getElementById("landingDis");
+let paqueteUnoUnoAbierto = false;
+let nuevoPrecio = null;
+
+paqueteUnoUno.addEventListener("click", () => {
+  if (!paqueteUnoUnoAbierto) {
+    mostrarPrecioUno();
+    paqueteUnoUnoAbierto = true;
+  }
+});
+
+const mostrarPrecioUno = () => {
+  const precioUno = document.createElement("div");
+  precioUno.innerHTML = `
+    <div class="precio">
+      <h2>Precio: US$ 100, AR$50.00</h2>
+      <button class="cerrar" onclick="cerrarPrecio()">Cerrar</button>
+    </div>
+  `;
+
+  paqueteUnoUno.parentNode.insertBefore(precioUno, paqueteUnoUno.nextSibling);
+};
+
+const cerrarPrecio = () => {
+  nuevoPrecio = document.querySelector(".precio");
+  if (nuevoPrecio) {
+    nuevoPrecio.remove();
+    paqueteUnoUnoAbierto = false;
+  }
+};
+*/
