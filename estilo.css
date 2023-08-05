@@ -1,7 +1,7 @@
 * {
   margin: 0%;
   padding: 0%;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 
 body {
@@ -417,6 +417,13 @@ footer{
   position: absolute;
   top: 200px;
 }
+footer a {
+  margin: 35px;
+  /* text-decoration: none; */
+  color: white;
+  margin-left: 25px;
+  font-size: 20px;
+}
 
 
 
@@ -495,6 +502,8 @@ footer{
     justify-content: center;
   
     width: 100vw;
+    display: flex;
+  justify-content: center;
   }
 
   .proyectoUno {
@@ -546,6 +555,7 @@ footer{
     /* Ajusta los estilos adicionales para el nuevo div */
   }
 
+  
   .proyectoCuatro {
     width: 320px;
     height: 170px;
@@ -556,6 +566,7 @@ footer{
     left: 50%;
     transform: translateX(-50%);
     top: 630px;
+    margin-left: 0;
   }
 
   .nuevoDivCuatro {
@@ -569,6 +580,7 @@ footer{
     z-index: 9999;
   }
 
+
   .proyectoCinco {
     width: 320px;
     height: 170px;
@@ -579,6 +591,7 @@ footer{
     left: 50%;
     transform: translateX(-50%);
     top: 815px;
+    margin-left: 0;
 
   }
 
@@ -594,6 +607,14 @@ footer{
     /* Ajusta los estilos adicionales para el nuevo div */
 
 
+  }
+
+  .proyectoUno, .proyectoDos, .proyectoCuatro, .proyectoCinco {
+    width: 320px;
+    height: 170px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
   }
   .contenedorProyectos{
     width: 100px;
@@ -727,7 +748,7 @@ footer p {
 }
 footer a {
   margin: 15px;
-  text-decoration: none;
+  /* text-decoration: none; */
   color: white;
   margin-left: 25px;
 }
@@ -763,15 +784,20 @@ footer h3 {
   .contenedorPaquetes div {
     width: 300px;
     margin-top: 15px;
+    margin: 10px auto;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 0;
   }
+
+  
 
   .paqueteUno {
     position: absolute;
-
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    top: 1725px;
+    top: 1500px;
   }
 
   .paqueteDos {
@@ -779,7 +805,7 @@ footer h3 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    top: 2280px;
+    top: 2080px;
   }
 
   .paqueteTres {
@@ -787,13 +813,24 @@ footer h3 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    top: 2835px;
+    top: 2635px;
   }
+  
+ 
+  
+  
   .consulta{
     margin-left: 60px;
   }
 
-
-
-
 }
+
+@media screen and (max-width: 768px) {
+  .paquete {
+    opacity: 1; /* Asegúrate de que los paquetes sean visibles en la versión móvil */
+    transform: none; /* Anula el efecto de AOS para evitar movimientos no deseados */
+    transition: opacity 0.3s ease; /* Agrega una transición para que la aparición sea suave */
+    left: 10px; /* Ajusta este valor para mover los paquetes hacia la izquierda */
+  }
+}
+
