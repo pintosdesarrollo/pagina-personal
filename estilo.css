@@ -465,6 +465,9 @@ footer a {
     margin-top: 30px;
   }
 
+  body {
+    overflow-x: hidden;
+  }
   .card h2 {
     font-size: 20px;
   }
