@@ -83,7 +83,7 @@ span {
 .proyectoDos {
   width: 280px;
   height: 600px;
-  background-image: url(Captura\ de\ pantalla\ \(1\).png);
+  background-image: url(img/cafe-escritorio.jpg);
   background-size: cover;
 
 
@@ -515,7 +515,7 @@ footer a {
     height: 170px;
     position: absolute;
     top: 260px;
-    background-image: url(./img/foto-dos.png);
+    background-image: url(./img/juana-deco-mobile.png);
     /* Cambia la ruta por la de la nueva imagen */
     background-size: cover;
     background-position: center;
@@ -538,7 +538,7 @@ footer a {
     width: 320px;
     height: 170px;
     position: absolute;
-    background-image: url(./img/foto-dos.png);
+    background-image: url(./img/cafeteria-mobile.png);
     /* Cambia la ruta por la de la nueva imagen */
     background-size: cover;
     background-position: center;

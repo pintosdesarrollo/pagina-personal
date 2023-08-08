@@ -71,8 +71,9 @@ const mostrarProyectoDos = () => {
   cardDos.innerHTML = `
     <div class="card">
       <div class="card-body fondo">
-        <h5 class="card-title">Calculadora</h5>
-        <p class="card-text">Descripción del proyecto dos.</p>
+        <h5 class="card-title">Cafeteria</h5>
+        <p class="card-text">Pagina desarrollada para cafeteria en buenos aires, de diseño simple buscando mostrar sus servicios, horarios y ubicacion.</p>
+        <h2>link: <a href="https://cafeteriacogedora.netlify.app/">https://cafeteria.app</a></h2>
         <button class="btnDiv" id="cerrarProyectoDos" onclick="cerrarProyectoDos()">Cerrar</button>
       </div>
     </div>
@@ -112,6 +113,7 @@ const mostrarProyectoCuatro = () => {
       <div class="card-body fondo">
         <h5 class="card-title">Proyecto Cuatro</h5>
         <p class="card-text">Descripción del proyecto cuatro.</p>
+        <h2>link: <a href="">no disponible (pagina en proceso)</a></h2>
         <button class="btnDiv" id="cerrarProyectoCuatro" onclick="cerrarProyectoCuatro()">Cerrar</button>
       </div>
     </div>
