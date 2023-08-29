@@ -835,7 +835,7 @@ footer a {
   }
 
   .contact-form {
-    width: 210px;
+    width: 200px;
     /* Reduzco el ancho para dispositivos móviles */
     max-width: none;
     /* Anulo la restricción máxima de ancho */
