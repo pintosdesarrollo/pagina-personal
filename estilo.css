@@ -1,7 +1,7 @@
 * {
   margin: 0%;
   padding: 0%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 body {
@@ -70,6 +70,9 @@ span {
     background-repeat: no-repeat;
   }
 }
+.proyectos div {
+  box-shadow: 2px 2px 10px black;
+}
 
 
 .proyectoUno {
@@ -107,7 +110,7 @@ span {
   height: 400px;
   position: absolute;
   left: 500px;
-  background-image: url(Captura\ de\ pantalla\ \(1\).png);
+  background-image: url(gym-escritorio.png);
   background-size: cover;
   top: 850px;
 
@@ -136,7 +139,6 @@ span {
   height: 100px;
   /* Nuevo alto */
   margin-left: 65px;
-  background-color: aqua;
 }
 
 .cuatro {
@@ -157,7 +159,6 @@ span {
   position: absolute;
   top: 1300px;
   left: 500px;
-  background-color: aqua;
 }
 
 .proyectos {
@@ -379,11 +380,12 @@ form textarea {
 .contenedorPaquetes div {
   background-color: white;
   color: black;
-  border: 2px solid red;
+  border: 1px solid black;
   width: 350px;
   border-radius: 15px;
   margin: 50px auto;
   margin-top: 1200px;
+  box-shadow: 2px black;
 
 }
 .consulta{
@@ -515,7 +517,7 @@ footer a {
     height: 170px;
     position: absolute;
     top: 260px;
-    background-image: url(./img/juana-deco-mobile.png);
+    background-image: url(juana-mobile.png);
     /* Cambia la ruta por la de la nueva imagen */
     background-size: cover;
     background-position: center;
@@ -538,7 +540,7 @@ footer a {
     width: 320px;
     height: 170px;
     position: absolute;
-    background-image: url(./img/cafeteria-mobile.png);
+    background-image: url(cafe-mobile.png);
     /* Cambia la ruta por la de la nueva imagen */
     background-size: cover;
     background-position: center;
@@ -588,7 +590,7 @@ footer a {
   .proyectoCinco {
     width: 320px;
     height: 170px;
-    background-image: url(./img/foto-dos.png);
+    background-image: url(mobile-gym.png);
     background-size: cover;
     background-position: center;
     position: absolute;

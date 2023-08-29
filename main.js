@@ -153,7 +153,8 @@ const mostrarProyectoCinco = () => {
     <div class="card">
       <div class="card-body fondo">
         <h5 class="card-title">Proyecto Cinco</h5>
-        <p class="card-text">Descripción del proyecto cinco.</p>
+        <p class="card-text">Pagina creada para gimnasio de la ciudad, landing page informando sobre sus servicios, plnaes y sobre ellos.</p>
+        <h2>link: <a href="https://gym-now.netlify.app/">https://gym-now.app</a></h2>
         <button class="btnDiv" id="cerrarProyectoCinco" onclick="cerrarProyectoCinco()">Cerrar</button>
       </div>
     </div>
