@@ -482,23 +482,6 @@ footer a {
 }
 
 
-.immm {
-  position: absolute;
- 
-}
-
-.uuno {
-  position: absolute;
-  top: 20px;
-
-}
-
-.ddos {
-  position: absolute;
-  top: 80px;
-}
-
-
 
 
 
@@ -597,7 +580,7 @@ footer a {
     height: 170px;
     position: absolute;
     top: 260px;
-    background-image: url(juana-mobile.png);
+    background-image: url(juana-deco-mobile-dos.png);
     /* Cambia la ruta por la de la nueva imagen */
     background-size: cover;
     background-position: center;
@@ -620,7 +603,7 @@ footer a {
     width: 320px;
     height: 170px;
     position: absolute;
-    background-image: url(cafe-mobile.png);
+    background-image: url(cafe-mobile-dos.png);
     /* Cambia la ruta por la de la nueva imagen */
     background-size: cover;
     background-position: center;
