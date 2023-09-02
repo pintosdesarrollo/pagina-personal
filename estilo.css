@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2? familia= Oswald:peso@300 &family= Roboto:wght@300 & display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Miriam+Libre&family=Montserrat:wght@200;300&family=Open+Sans&family=Oswald:wght@300&family=Rhodium+Libre&family=Roboto:wght@300&display=swap');
+
+
 * {
   margin: 0%;
   padding: 0%;
@@ -11,10 +15,21 @@ body {
   max-width: 100%;
 
 }
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
 
+p{
+  font-family: "Roboto", sans-serif;
+}
 nav {
   display: flex;
   justify-content: center;
+}
+a {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
 }
 
 .colorLink {
@@ -56,6 +71,7 @@ span {
 .mobile-text {
   display: none;
 }
+
 
 @media (max-width: 767px) {
   .mobile-text {
@@ -180,6 +196,7 @@ span {
   top: 650px;
   width: 750px;
   left: 95px;
+  z-index: 999;
   /* Ajusta los estilos adicionales para el nuevo div */
 }
 
@@ -222,7 +239,20 @@ span {
   width: 500px;
   margin: 25px;
   color: white;
+  display: flex;
+  flex-direction: column;
+  
 }
+
+.llamaya {
+  border: solid 1px white;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  color: #0F4C75;
+}
+
 
 p {
   margin: 25px;
@@ -324,6 +354,11 @@ h2 {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1.5rem;
+}
+
+.ppaquete h3, h4 {
+
+  font-size: 1.2rem;
 }
 
 .contact-form {
@@ -458,7 +493,7 @@ footer {
   background-color: black;
   width: 100vw;
   position: absolute;
-  top: 3500px;
+  top: 3900px;
   height: auto;
   text-align: center;
 }
@@ -481,10 +516,28 @@ footer a {
   color: #333333;
 }
 
+.masInfo {
+  position: absolute;
+  top: 3200px;
+  display: flex;
+  color: black;
+}
 
+.sobreMi a {
+  color: white;
+  text-align: center;
+}
 
+.sobreMi, .comoTrabajo {
+  width: 50%;
+  margin: 25px;
+  text-align: center;
+}
 
-
+.sobreMi p, .comoTrabajo p {
+  text-align: start;
+  font-size: 1rem;
+}
 
 
 
@@ -708,7 +761,7 @@ footer a {
     margin-left: auto;
     margin-right: auto;
     position: absolute;
-    top: 85px;
+    top: 105px;
 
   }
 
@@ -727,7 +780,7 @@ footer a {
     left: 50%;
     transform: translateX(-50%);
     top: -180px;
-    height: 280px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -738,7 +791,11 @@ footer a {
     width: 330px;
     position: absolute;
     top: 35px;
+  }
 
+  .llamaya {
+    position: absolute;
+    top: 280px;
   }
 
   .textoServicios h2 {
@@ -811,7 +868,7 @@ footer a {
 
   footer {
     position: absolute;
-    top: 4500px;
+    top: 5200px;
     width: 100vw;
   }
 
@@ -912,6 +969,19 @@ footer a {
     top: 2635px;
   }
 
+  .masInfo {
+    position: absolute;
+    top: 3900px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sobreMi, .comoTrabajo {
+    width: 90%;
+    margin: 15px;
+    text-align: center;
+  }
+  
 
 
 

@@ -32,7 +32,7 @@ const mostrarProyecto = () => {
       <div class="card-body fondo">
         <h5 class="card-title">Juana Deco</h5>
         <p class="card-text">Pagina realizada para empresa de decoracion. En esta pagina utilizamos codigo html y css para cumplir los objetivos del cliente de mostrar sus servicios mas una seccion de contacto.</p>
-        <h2>link: <a href="https://juanadeco.netlify.app/">https://juanadeco.app</a></h2>
+        <h2>link: <a href="https://juanadeco.netlify.app/" target="_blank">https://juanadeco.app</a></h2>
         <button class="btnDiv" id="cerrarProyecto" onclick="cerrarProyecto()">Cerrar</button>
       </div>
     </div>
@@ -73,7 +73,7 @@ const mostrarProyectoDos = () => {
       <div class="card-body fondo">
         <h5 class="card-title">Cafeteria</h5>
         <p class="card-text">Pagina desarrollada para cafeteria en buenos aires, de diseño simple buscando mostrar sus servicios, horarios y ubicacion.</p>
-        <h2>link: <a href="https://cafeteriacogedora.netlify.app/">https://cafeteria.app</a></h2>
+        <h2>link: <a href="https://cafeteriacogedora.netlify.app/" target="_blank">https://cafeteria.app</a></h2>
         <button class="btnDiv" id="cerrarProyectoDos" onclick="cerrarProyectoDos()">Cerrar</button>
       </div>
     </div>
@@ -111,9 +111,9 @@ const mostrarProyectoCuatro = () => {
   cardCuatro.innerHTML = `
     <div class="card">
       <div class="card-body fondo">
-        <h5 class="card-title">Proyecto Cuatro</h5>
-        <p class="card-text">Descripción del proyecto cuatro.</p>
-        <h2>link: <a href="">no disponible (pagina en proceso)</a></h2>
+        <h5 class="card-title">Silvera t-shirts</h5>
+        <p class="card-text">Pagina con carrito de compras diseñado para marca de ropa, se utilizo html, css y javascript para lograr esta pagina.</p>
+        <h2>link: <a href="" target="_blank">no disponible (pagina en proceso)</a></h2>
         <button class="btnDiv" id="cerrarProyectoCuatro" onclick="cerrarProyectoCuatro()">Cerrar</button>
       </div>
     </div>
@@ -154,7 +154,7 @@ const mostrarProyectoCinco = () => {
       <div class="card-body fondo">
         <h5 class="card-title">Proyecto Cinco</h5>
         <p class="card-text">Pagina creada para gimnasio de la ciudad, landing page informando sobre sus servicios, plnaes y sobre ellos.</p>
-        <h2>link: <a href="https://gym-now.netlify.app/">https://gym-now.app</a></h2>
+        <h2>link: <a href="https://gym-now.netlify.app/" target="_blank">https://gym-now.app</a></h2>
         <button class="btnDiv" id="cerrarProyectoCinco" onclick="cerrarProyectoCinco()">Cerrar</button>
       </div>
     </div>
