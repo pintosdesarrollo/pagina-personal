@@ -114,7 +114,7 @@ span {
   height: 600px;
   position: absolute;
   left: 95px;
-  background-image: url(Captura\ de\ pantalla\ \(1\).png);
+  background-image: url(silvera-escritorio.jpg);
   background-size: cover;
   top: 850px;
 
@@ -681,7 +681,7 @@ footer a {
   .proyectoCuatro {
     width: 320px;
     height: 170px;
-    background-image: url(./img/foto-dos.png);
+    background-image: url(silvera-mobile.png);
     background-size: cover;
     background-position: center;
     position: absolute;
