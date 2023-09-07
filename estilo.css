@@ -11,7 +11,6 @@
 body {
   background-color: #333333;
   overflow-x: hidden;
-
   max-width: 100%;
 
 }
@@ -40,7 +39,7 @@ header {
   background-color: black;
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: 100vw;
 }
 
 .navbar-nav {
@@ -233,6 +232,35 @@ span {
 
 }
 
+.unnaSeccion {
+  background-color: black;
+  position: absolute;
+  top: 1530px;
+  width: 100vw;
+  height: 440px;
+  text-align: center;
+  color: white;
+}
+.unnaSeccion p {
+  margin: 55px;
+  margin-top: 15px;
+}
+
+.unnaSeccion img {
+  border-radius: 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.unnaSeccion .primerD {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+.divDoss p {
+  text-align: start;
+}
+
 .textoServicios {
   grid-area: texto;
   background-color: black;
@@ -286,7 +314,7 @@ h2 {
   justify-items: center;
   /* Centrar horizontalmente */
   margin-top: 250px;
-
+display: none;
 
 }
 
@@ -817,6 +845,7 @@ footer a {
     margin-top: 10px;
     width: 350px;
 
+    display: none;
   }
 
 
@@ -829,7 +858,7 @@ footer a {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 3500px;
+    top: 3600px;
     width: 330px;
     margin-bottom: 525px;
     margin-top: 20px;
@@ -868,7 +897,7 @@ footer a {
 
   footer {
     position: absolute;
-    top: 5450px;
+    top: 6100px;
     width: 100vw;
   }
 
@@ -934,6 +963,37 @@ footer a {
     overflow-y: auto;
   }
 
+
+  
+.unnaSeccion {
+  position: absolute;
+  top: 1020px;
+  width: 100vw;
+  height: 600px;
+ 
+}
+.unnaSeccion p {
+  margin: 15px;
+  margin-top: 10px;
+}
+
+.unnaSeccion img {
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 80%;
+}
+.unnaSeccion .primerD {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5px;
+}
+
+.unnaSeccion h4 {
+  margin-top: 25px;
+}
+
   .contenedorPaquetes div {
     width: 300px;
     margin-top: 15px;
@@ -950,7 +1010,7 @@ footer a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    top: 1500px;
+    top: 1700px;
   }
 
   .paqueteDos {
@@ -958,7 +1018,7 @@ footer a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    top: 2080px;
+    top: 2280px;
   }
 
   .paqueteTres {
@@ -966,12 +1026,12 @@ footer a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    top: 2635px;
+    top: 2835px;
   }
 
   .masInfo {
     position: absolute;
-    top: 3900px;
+    top: 3940px;
     display: flex;
     flex-direction: column;
   }
