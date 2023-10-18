@@ -521,7 +521,7 @@ footer {
   background-color: black;
   width: 100vw;
   position: absolute;
-  top: 3900px;
+  top: 3400px;
   height: auto;
   text-align: center;
 }
@@ -546,7 +546,7 @@ footer a {
 
 .masInfo {
   position: absolute;
-  top: 3200px;
+  top: 2600px;
   display: flex;
   color: black;
 }
@@ -567,6 +567,13 @@ footer a {
   font-size: 1rem;
 }
 
+.comoTrabajo p, .comoTrabajo h2 {
+  color: antiquewhite;
+}
+
+.sobreMi p {
+  color: antiquewhite;
+}
 
 
 
@@ -897,7 +904,7 @@ footer a {
 
   footer {
     position: absolute;
-    top: 6100px;
+    top: 5300px;
     width: 100vw;
   }
 
@@ -1031,7 +1038,7 @@ footer a {
 
   .masInfo {
     position: absolute;
-    top: 3940px;
+    top: 3400px;
     display: flex;
     flex-direction: column;
   }
