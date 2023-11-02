@@ -1139,7 +1139,15 @@ footer a {
   text-align: center;
 }
 
-
+.cardMk {
+  margin: 2%;
+}
+.linkMK {
+  color: #333333;
+  border: solid #333333 1px;
+  padding: 1.5%;
+  border-radius: 4px;
+}
 
 @media (max-width: 767px) {
 
