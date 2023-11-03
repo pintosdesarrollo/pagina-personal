@@ -1160,6 +1160,7 @@ footer a {
 
 .cardMk {
   margin: 2%;
+  box-shadow: 5px 5px 10px;
 }
 
 .linkMK {
@@ -1231,6 +1232,24 @@ footer a {
   justify-content: center;
 }
 
+.marketingIndex a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  font-size: 1rem;
+}
+
+.marketingIndex {
+  border: 1px solid black;
+  background-color: #1E3753;
+  padding: 1.5%;
+  box-shadow: 5px 5px 10px;
+  width: 350px;
+  text-align: center;
+  margin-left: 35%;
+}
+
 @media (max-width: 767px) {
 
   .h2MK {
@@ -1283,6 +1302,12 @@ footer a {
 .divContMK {
   margin: 2%;
   margin-top: 2%;
+  margin-left: 10%;
+}
+
+.marketingIndex {
+  position: absolute;
+  top: 3350px;
   margin-left: 10%;
 }
 }
