@@ -1284,21 +1284,30 @@ footer a {
   margin-left: 0px;
 }
 
+.prex img {
+  width: 80px;
+  height: 40px;
+}
+
 .pagosIndex {
   position: absolute;
   top: 3200px;
 }
+
 .pagosIndex h2 {
   text-align: left;
   color: black;
   margin-left: 25px;
 }
+
 .opIndex h4 {
   color: white;
 }
+
 .opIndex img {
   margin-left: 10px;
 }
+
 .contaiNdex {
   border: solid black 2px;
 }
@@ -1387,6 +1396,11 @@ footer a {
     margin-left: 10px;
   }
 
+  .prex img {
+    width: 50px;
+    height: 25px;
+  }
+
 
   .pagosIndex {
     position: absolute;
@@ -1419,6 +1433,3 @@ footer a {
     top: 3400px;
   }
 }
- 
-
-
