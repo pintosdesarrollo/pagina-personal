@@ -1292,6 +1292,7 @@ footer a {
 .pagosIndex {
   position: absolute;
   top: 3200px;
+  margin-top: 80px;
 }
 
 .pagosIndex h2 {
